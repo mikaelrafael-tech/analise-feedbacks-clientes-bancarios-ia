@@ -7,45 +7,25 @@
 
 ---
 
-# 📖 Sobre o Projeto
+## 📖 Sobre o Projeto
 
-Este projeto foi desenvolvido como parte de um desafio prático da **Digital Innovation One (DIO)** com o objetivo de aplicar Inteligência Artificial Generativa na análise de feedbacks de clientes do setor bancário.
+Este projeto foi desenvolvido como parte de um desafio da **Digital Innovation One (DIO)**, com o objetivo de aplicar **Inteligência Artificial Generativa** e **Engenharia de Prompt** na análise de feedbacks de clientes bancários.
 
-O projeto demonstra como técnicas de Engenharia de Prompt podem ser utilizadas para transformar uma base de dados estruturada em informações estratégicas capazes de apoiar a tomada de decisão.
+A proposta consiste em utilizar uma base de dados contendo avaliações de clientes para gerar um relatório executivo com indicadores, insights estratégicos e recomendações que possam apoiar a tomada de decisão.
 
-Durante o desenvolvimento foram utilizados conceitos de:
-
-- Inteligência Artificial Generativa
-- Engenharia de Prompt
-- Análise de Dados
-- Business Intelligence (BI)
-- Customer Experience (CX)
-- Documentação Técnica
-- GitHub
+Durante o projeto foram aplicados conceitos de Análise de Dados, Business Intelligence (BI), Customer Experience (CX), Engenharia de Prompt e documentação técnica utilizando GitHub.
 
 ---
 
 # 🎯 Objetivos
 
-Os principais objetivos deste projeto foram:
-
-- Aplicar IA Generativa na análise de dados.
+- Aplicar Inteligência Artificial Generativa na análise de dados.
 - Desenvolver um processo estruturado de Engenharia de Prompt.
 - Interpretar feedbacks de clientes bancários.
 - Identificar padrões de satisfação e insatisfação.
-- Gerar indicadores (KPIs).
-- Produzir um relatório executivo.
-- Documentar todo o processo de desenvolvimento.
-
----
-
-# 💼 Contexto
-
-Uma instituição financeira deseja compreender melhor a percepção dos clientes sobre seus produtos e canais de atendimento.
-
-Para isso, foi disponibilizada uma base contendo feedbacks de clientes bancários.
-
-A partir desses dados, foi elaborado um relatório executivo com foco na identificação de oportunidades de melhoria, riscos e recomendações estratégicas.
+- Gerar indicadores de desempenho (KPIs).
+- Produzir um relatório executivo baseado em evidências.
+- Organizar toda a documentação do projeto no GitHub.
 
 ---
 
@@ -55,70 +35,154 @@ A partir desses dados, foi elaborado um relatório executivo com foco na identif
 - Inteligência Artificial Generativa
 - Engenharia de Prompt
 - Microsoft Excel
-- CSV
-- Markdown
+- Arquivos CSV
 - Git
 - GitHub
+- Markdown
+
+---
+
+# 📂 Estrutura do Projeto
+
+```text
+analise-feedbacks-clientes-bancarios-ia/
+│
+├── README.md
+├── LICENSE
+│
+├── dados/
+│   ├── feedback_clientes.csv
+│   └── feedback_clientes.xlsx
+│
+├── prompts/
+│   └── prompt_executivo.md
+│
+├── relatorios/
+│   └── relatorio_executivo.md
+│
+├── docs/
+│   └── metodologia.md
+│
+└── imagens/
+```
 
 ---
 
 # 📊 Base de Dados
 
-A base de dados utilizada neste projeto contém **100 feedbacks de clientes bancários**, disponibilizados em formatos CSV e Excel.
+A base de dados utilizada neste projeto contém **100 feedbacks de clientes bancários**, disponibilizados nos formatos CSV e Excel.
 
-Cada registro possui as seguintes informações:
+Cada registro apresenta as seguintes informações:
 
-- ID do feedback
-- Categoria do serviço
-- Canal de atendimento
-- Nota de satisfação (1 a 5)
-- Comentário do cliente
+| Campo | Descrição |
+|--------|-----------|
+| ID | Identificador do feedback |
+| Categoria | Serviço avaliado |
+| Canal | Canal de atendimento |
+| Nota | Avaliação de 1 a 5 |
+| Feedback | Comentário do cliente |
 
-Esses dados foram utilizados para identificar padrões de satisfação, oportunidades de melhoria e apoiar a elaboração de um relatório executivo baseado em Inteligência Artificial.
+Esses dados foram utilizados para identificar padrões de comportamento, calcular indicadores e gerar recomendações estratégicas.
 
 ---
 
 # 🧠 Engenharia de Prompt
 
-Para realizar a análise, foi desenvolvido um prompt estruturado, orientando a Inteligência Artificial a atuar como uma consultoria especializada em Business Intelligence (BI), Customer Experience (CX) e Inteligência Artificial.
+Foi desenvolvido um prompt estruturado para orientar a Inteligência Artificial a atuar como uma consultoria especializada em:
+
+- Inteligência Artificial
+- Business Intelligence (BI)
+- Análise de Dados
+- Customer Experience (CX)
 
 O prompt foi elaborado para:
 
-- Interpretar os dados da planilha.
-- Calcular indicadores (KPIs).
-- Identificar padrões e tendências.
-- Produzir insights estratégicos.
-- Elaborar um plano de ação.
-- Gerar recomendações para a diretoria.
+- Interpretar os dados;
+- Calcular KPIs;
+- Identificar tendências;
+- Classificar sentimentos;
+- Gerar insights estratégicos;
+- Elaborar um plano de ação;
+- Produzir um relatório executivo profissional.
 
-O prompt utilizado está disponível na pasta **prompts/** deste repositório.
+O prompt completo está disponível na pasta **prompts/**.
 
 ---
 
-# 📊 Base de Dados
+# 📋 Metodologia
 
-A base de dados utilizada neste projeto contém **100 feedbacks de clientes bancários**, disponibilizados nos formatos **CSV** e **Excel**.
+O desenvolvimento do projeto seguiu as seguintes etapas:
 
-Cada registro apresenta informações que permitem analisar a percepção dos clientes em relação aos serviços oferecidos por uma instituição financeira.
+1. Organização da base de dados.
+2. Definição do objetivo da análise.
+3. Desenvolvimento do prompt executivo.
+4. Processamento dos dados utilizando IA Generativa.
+5. Interpretação dos resultados.
+6. Elaboração do relatório executivo.
+7. Organização da documentação no GitHub.
 
-### Estrutura da Base
+---
 
-| Campo | Descrição |
-|--------|-----------|
-| ID | Identificador do feedback |
-| Categoria | Serviço avaliado pelo cliente |
-| Canal | Canal de atendimento utilizado |
-| Nota | Avaliação de 1 a 5 |
-| Feedback | Comentário realizado pelo cliente |
+# 📈 Resultados Obtidos
 
-### Objetivo da Análise
+A análise permitiu:
 
-Os dados foram utilizados para:
+- Calcular indicadores de satisfação dos clientes.
+- Identificar categorias com melhor e pior desempenho.
+- Classificar sentimentos positivos, neutros e negativos.
+- Identificar oportunidades de melhoria.
+- Elaborar recomendações estratégicas.
+- Criar um relatório executivo baseado exclusivamente nos dados analisados.
 
-- Identificar padrões de satisfação e insatisfação;
-- Calcular indicadores (KPIs);
-- Encontrar oportunidades de melhoria;
-- Gerar insights estratégicos;
-- Elaborar recomendações para apoiar a tomada de decisão.
+---
 
-Os arquivos utilizados estão disponíveis na pasta **dados/** deste repositório.
+# 💡 Competências Desenvolvidas
+
+Durante o desenvolvimento deste projeto foram praticadas as seguintes competências:
+
+- Engenharia de Prompt
+- Inteligência Artificial Generativa
+- Análise de Dados
+- Business Intelligence (BI)
+- Customer Experience (CX)
+- Documentação Técnica
+- Git e GitHub
+- Organização de Projetos
+- Comunicação Técnica
+
+---
+
+# 📚 Aprendizados
+
+Este projeto demonstrou como a Inteligência Artificial pode apoiar profissionais na interpretação de dados e na geração de informações estratégicas para tomada de decisão.
+
+Além da análise dos dados, foi possível desenvolver habilidades de documentação, organização de projetos e construção de prompts estruturados.
+
+---
+
+# 🚀 Próximos Passos
+
+Como evolução deste projeto, podem ser desenvolvidas novas funcionalidades, como:
+
+- Dashboard no Power BI.
+- Dashboard em Excel.
+- Análise automática utilizando Python.
+- Visualizações gráficas dos indicadores.
+- Integração com novas bases de dados.
+
+---
+
+# 👨‍💻 Autor
+
+**Rafael Michael dos Santos Vidal**
+
+Graduado em Gestão da Produção Industrial.
+
+Em desenvolvimento contínuo nas áreas de Inteligência Artificial, Análise de Dados, Business Intelligence, Melhoria Contínua e Automação.
+
+- GitHub: https://github.com/mikaelrafael-tech
+- LinkedIn: (adicione o link do seu perfil)
+
+---
+
+## 📌 Projeto desenvolvido como parte dos desafios práticos da Digital Innovation One (DIO).
