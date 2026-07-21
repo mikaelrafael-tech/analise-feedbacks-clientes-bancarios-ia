@@ -61,3 +61,34 @@ A partir desses dados, foi elaborado um relatório executivo com foco na identif
 - GitHub
 
 ---
+
+# 📊 Base de Dados
+
+A base de dados utilizada neste projeto contém **100 feedbacks de clientes bancários**, disponibilizados em formatos CSV e Excel.
+
+Cada registro possui as seguintes informações:
+
+- ID do feedback
+- Categoria do serviço
+- Canal de atendimento
+- Nota de satisfação (1 a 5)
+- Comentário do cliente
+
+Esses dados foram utilizados para identificar padrões de satisfação, oportunidades de melhoria e apoiar a elaboração de um relatório executivo baseado em Inteligência Artificial.
+
+---
+
+# 🧠 Engenharia de Prompt
+
+Para realizar a análise, foi desenvolvido um prompt estruturado, orientando a Inteligência Artificial a atuar como uma consultoria especializada em Business Intelligence (BI), Customer Experience (CX) e Inteligência Artificial.
+
+O prompt foi elaborado para:
+
+- Interpretar os dados da planilha.
+- Calcular indicadores (KPIs).
+- Identificar padrões e tendências.
+- Produzir insights estratégicos.
+- Elaborar um plano de ação.
+- Gerar recomendações para a diretoria.
+
+O prompt utilizado está disponível na pasta **prompts/** deste repositório.
