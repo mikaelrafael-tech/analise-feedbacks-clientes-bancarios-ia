@@ -180,9 +180,6 @@ Graduado em Gestão da Produção Industrial.
 
 Em desenvolvimento contínuo nas áreas de Inteligência Artificial, Análise de Dados, Business Intelligence, Melhoria Contínua e Automação.
 
-- GitHub: https://github.com/mikaelrafael-tech
-- LinkedIn: (adicione o link do seu perfil)
-
 ---
 
 ## 📌 Projeto desenvolvido como parte dos desafios práticos da Digital Innovation One (DIO).
