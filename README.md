@@ -92,3 +92,33 @@ O prompt foi elaborado para:
 - Gerar recomendações para a diretoria.
 
 O prompt utilizado está disponível na pasta **prompts/** deste repositório.
+
+---
+
+# 📊 Base de Dados
+
+A base de dados utilizada neste projeto contém **100 feedbacks de clientes bancários**, disponibilizados nos formatos **CSV** e **Excel**.
+
+Cada registro apresenta informações que permitem analisar a percepção dos clientes em relação aos serviços oferecidos por uma instituição financeira.
+
+### Estrutura da Base
+
+| Campo | Descrição |
+|--------|-----------|
+| ID | Identificador do feedback |
+| Categoria | Serviço avaliado pelo cliente |
+| Canal | Canal de atendimento utilizado |
+| Nota | Avaliação de 1 a 5 |
+| Feedback | Comentário realizado pelo cliente |
+
+### Objetivo da Análise
+
+Os dados foram utilizados para:
+
+- Identificar padrões de satisfação e insatisfação;
+- Calcular indicadores (KPIs);
+- Encontrar oportunidades de melhoria;
+- Gerar insights estratégicos;
+- Elaborar recomendações para apoiar a tomada de decisão.
+
+Os arquivos utilizados estão disponíveis na pasta **dados/** deste repositório.
