@@ -23,6 +23,7 @@ Revisar a comunicação e experiência dos processos digitais.
 Desenvolver um plano de melhoria contínua voltado para a experiência do cliente.
 
 2. Visão Geral da Base
+   
 | Métrica             | Resultado |
 | ------------------- | --------- |
 | Total de registros  | 100       |
