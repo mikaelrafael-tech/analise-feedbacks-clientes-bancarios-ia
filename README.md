@@ -350,7 +350,6 @@ Atualmente desenvolvendo conhecimentos nas áreas de:
 ### 🌐 Contatos
 
 - GitHub: https://github.com/mikaelrafael-tech
-- LinkedIn: *(adicione o link do seu perfil)*
 
 ---
 
